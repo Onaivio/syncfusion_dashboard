@@ -20,10 +20,10 @@
     "react-scripts": "5.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node node_modules/react-scripts/bin/react-scripts start",
+    "build": "node node_modules/react-scripts/bin/react-scripts build",
+    "test": "node node_modules/react-scripts/bin/react-scripts test",
+    "eject": "node node_modules/react-scripts/bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
